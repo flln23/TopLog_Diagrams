@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T01:14:39.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.1.1" etag="dM_mpc_v2YCavKiV0E00" type="github"><diagram id="Mf5A8baf47a3lFX-xt1y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-04T01:14:52.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="iepY3rKujMU2B3CwIQeg" version="20.1.1" type="github">
+  <diagram id="Mf5A8baf47a3lFX-xt1y" name="Page-1">
+    <mxGraphModel dx="1422" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-1" value="Незащищенная структура:&lt;br&gt;ИмяФормы + Синоним для интерфейса (для вывода в сообщение)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-2" value="Защищенная часть: весь текущий код, выполняемый в обработчике формы ПриОткрытии()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="240" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
