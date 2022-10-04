@@ -1,29 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T01:24:51.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="khSiT8e3mD_afjZqmaeW" version="20.1.1" type="github">
-  <diagram id="Mf5A8baf47a3lFX-xt1y" name="Page-1">
-    <mxGraphModel dx="981" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-10-04T01:37:29.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1sfF4z_mSXygN2ezcdNU" version="20.1.1" type="github" pages="2">
+  <diagram id="Mf5A8baf47a3lFX-xt1y" name="Архитектурная часть">
+    <mxGraphModel dx="1673" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-1" value="Незащищенная структура (хранится в общем модуле конфигурации):&lt;br&gt;ИмяФормы + Синоним для интерфейса (для вывода в сообщение)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="240" height="80" as="geometry" />
+        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-1" value="ИмяФормы + Синоним для интерфейса (для вывода в сообщение)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-2" value="Защищенная часть (хранится в защищенной обработке): весь текущий код, выполняемый в обработчике формы ПриОткрытии()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-3" value="Логическая часть реализации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="200" width="480" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-4" value="В обработчике формы ПриОткрытии() вызываем метод защищенной обработки&amp;nbsp;ДоступностьПодсистемыИзФормыПриОткрытии()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="240" width="480" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-5" value="Метод проверяет доступность лицензии. В случае отсутствия лицензии, метод сообщает о невозможности дальнейшей работы" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="160" y="290" width="240" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-6" value="В случае наличия лицензии, метод исполняет текущее тело обработчика формы ПриОткрытии()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="400" y="290" width="240" height="70" as="geometry" />
+        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-2" value="Весь текущий код, выполняемый в обработчике формы ПриОткрытии()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-7" value="Архитектурная часть реализации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="480" height="40" as="geometry" />
+          <mxGeometry x="40" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-9" value="Незащищенная структура (хранится в общем модуле конфигурации)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lkw1FPNS6HBRP2Hc-tfF-10" value="Защищенная часть (хранится в защищенной обработке)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="420" y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PHcCnNVj9aNwv16v9_i7" name="Логическая часть">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-1" value="Логическая часть реализации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nCdtCIxPB1jtcD1M5P0f-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vmrOqhqx_6KtgIPyzVGw-2" target="vmrOqhqx_6KtgIPyzVGw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-2" value="В обработчике формы ПриОткрытии() вызываем метод защищенной обработки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="80" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vmrOqhqx_6KtgIPyzVGw-4" target="vmrOqhqx_6KtgIPyzVGw-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-4" value="Исполняется текущее тело обработчика формы ПриОткрытии(), выделенное в защищенную обработку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="470" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vmrOqhqx_6KtgIPyzVGw-9" target="vmrOqhqx_6KtgIPyzVGw-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-6" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vmrOqhqx_6KtgIPyzVGw-5">
+          <mxGeometry x="-0.2324" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vmrOqhqx_6KtgIPyzVGw-9" target="vmrOqhqx_6KtgIPyzVGw-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-8" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vmrOqhqx_6KtgIPyzVGw-7">
+          <mxGeometry x="-0.3168" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-9" value="Лицензия по ключу подсистемы доступна" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vmrOqhqx_6KtgIPyzVGw-11" target="vmrOqhqx_6KtgIPyzVGw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-11" value="Отображается сообщение о невозможности открытия формы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="470" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-12" value="Завершена работа метода.&lt;br&gt;&lt;br&gt;Продолжение исполнения обработчика формы ПриОткрытии()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="312" y="730" width="216" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nCdtCIxPB1jtcD1M5P0f-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vmrOqhqx_6KtgIPyzVGw-13" target="vmrOqhqx_6KtgIPyzVGw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmrOqhqx_6KtgIPyzVGw-13" value="Начало метода ДоступностьПодсистемыИзФормыПриОткрытии()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
