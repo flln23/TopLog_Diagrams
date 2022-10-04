@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T00:08:32.915Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0jbZPH97VkBu1a8Ew-Jb" version="20.1.1" type="github"><diagram id="y45PcMLsPRzR5A_6gRSV" name="Page-1">dZHBDoIwDIafZnfYUPSMiBdPHDwvrLIlg5IxA/r0QjbEBU16aL/+3b91hGXNWBjeySsK0IRGYiTsRCiNE0rJHJF4OpLuEgdqo4QXraBUL/Aw8vShBPSB0CJqq7oQVti2UNmAcWNwCGV31KFrx2vYgLLiektvSljp6IGmK7+AquXiHO+PrtPwRexf0ksucPhCLCcsM4jWZc2YgZ6Xt+zFzZ3/dD8XM9DaHwNTsp49FcEPsfwN</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-04T01:11:09.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="csAOegDHvS2-jySpa47o" version="20.1.1" type="github">
+  <diagram id="y45PcMLsPRzR5A_6gRSV" name="Page-1">
+    <mxGraphModel dx="813" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KR2v7frDDCiK3FN9eOqd-1" value="Незащищенная структура:&lt;br&gt;ИмяФормы + Синоним для интерфейса (для вывода в сообщение)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KR2v7frDDCiK3FN9eOqd-2" value="Защищенная часть: весь текущий код, выполняемый в обработчике формы ПриОткрытии()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="240" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
