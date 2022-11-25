@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T09:32:24.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Yft7WcbssOniwf9hhrax" version="20.6.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-25T09:39:48.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="aebbvms3zOSMxpSsBxR_" version="20.6.0" type="github" pages="5">
   <diagram id="U8fzolZC7nZdCNsqpMJk" name="Тезисы">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -240,7 +240,7 @@
         <mxCell id="S3SroFcMeXyD0w53rGOh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="TbWgfQ1BpCs46w1cBOL2-3" source="S3SroFcMeXyD0w53rGOh-3" target="y7Gk_75M8xc8uff-1NYp-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S3SroFcMeXyD0w53rGOh-3" value="Это новая настройка?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="TbWgfQ1BpCs46w1cBOL2-3">
+        <mxCell id="S3SroFcMeXyD0w53rGOh-3" value="Это новая настройка?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TbWgfQ1BpCs46w1cBOL2-3">
           <mxGeometry x="150" y="750" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="y7Gk_75M8xc8uff-1NYp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="TbWgfQ1BpCs46w1cBOL2-2" source="y7Gk_75M8xc8uff-1NYp-1" target="y7Gk_75M8xc8uff-1NYp-2" edge="1">
@@ -264,7 +264,7 @@
         <mxCell id="y7Gk_75M8xc8uff-1NYp-7" value="Отображает форму настроек" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;" parent="TbWgfQ1BpCs46w1cBOL2-4" vertex="1">
           <mxGeometry x="80" y="560" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="S3SroFcMeXyD0w53rGOh-5" value="Загружаем настройку из хранилища" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;" vertex="1" parent="TbWgfQ1BpCs46w1cBOL2-4">
+        <mxCell id="S3SroFcMeXyD0w53rGOh-5" value="Загружаем настройку из хранилища" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="TbWgfQ1BpCs46w1cBOL2-4">
           <mxGeometry x="85" y="950" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="y7Gk_75M8xc8uff-1NYp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="TbWgfQ1BpCs46w1cBOL2-2" source="y7Gk_75M8xc8uff-1NYp-7" target="S3SroFcMeXyD0w53rGOh-3" edge="1">
@@ -343,7 +343,7 @@
         <mxCell id="wk4fpaiU79ZaXQ2rfXH2-1" value="Типы значений свойств комплексных типов могут быть получены методом:&lt;br&gt;ТипЗначения.Свойства.Получить(ИмяСвойства).Тип" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=solid;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="1824" y="570" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VlwOsn_wa1RrKDnm9oJW-3" value="Смотри &quot;Процесс загрузки\сохранения настроек&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VlwOsn_wa1RrKDnm9oJW-3" value="Смотри &quot;Процесс загрузки\сохранения настроек&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1050" y="1005" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VlwOsn_wa1RrKDnm9oJW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S3SroFcMeXyD0w53rGOh-5" target="VlwOsn_wa1RrKDnm9oJW-3">
@@ -374,16 +374,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QZzIuRFOFt2X9wSfgPc5-16" value="Получить таблицу для загрузки методом генерации колонок по настройке" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="40" width="400" height="80" as="geometry" />
+          <mxGeometry x="880" y="40" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vRAgT10r9JUnITVil0TR-2" value="Логика генерации" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillStyle=solid;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1410" y="60" width="230" height="90" as="geometry" />
+          <mxGeometry x="1474" y="40" width="230" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="vRAgT10r9JUnITVil0TR-3" value="&lt;span style=&quot;text-align: center;&quot;&gt;Типы колонок берем из СтрокаДерева.ТипЗначения&lt;/span&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillStyle=solid;" parent="vRAgT10r9JUnITVil0TR-2" vertex="1">
+        <mxCell id="vRAgT10r9JUnITVil0TR-3" value="&lt;span style=&quot;text-align: center;&quot;&gt;Значения\номера колонок по пути реквизита&amp;nbsp; можем взять из структуры настройки&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillStyle=solid;" parent="vRAgT10r9JUnITVil0TR-2" vertex="1">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vRAgT10r9JUnITVil0TR-4" value="Имена колонок берем из СтрокаДерева.ПутьКРеквизиту" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillStyle=solid;" parent="vRAgT10r9JUnITVil0TR-2" vertex="1">
+        <mxCell id="H1XK4S45D1wJCWPsQJqk-1" value="&lt;span style=&quot;text-align: center;&quot;&gt;Типы колонок берем из СтрокаДерева.ТипЗначения&lt;/span&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillStyle=solid;" vertex="1" parent="vRAgT10r9JUnITVil0TR-2">
           <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRAgT10r9JUnITVil0TR-4" value="Имена колонок берем из СтрокаДерева.ПутьКРеквизиту" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillStyle=solid;" parent="vRAgT10r9JUnITVil0TR-2" vertex="1">
+          <mxGeometry y="90" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-6BGW1NEtf8fnGRDYu24-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WiHU5fk8KxVnv-FbGB8p-1" target="-6BGW1NEtf8fnGRDYu24-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -456,6 +459,14 @@
         </mxCell>
         <mxCell id="KUSYqFiIuXwIHpvC_2n9-14" value="Здесь ФабрикаXDTO - глобальная системная переменная платформы!" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=solid;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="1430" y="720" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H1XK4S45D1wJCWPsQJqk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vRAgT10r9JUnITVil0TR-3" target="mARlDAfW1FnXdlI_XDdb-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1870" y="85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mARlDAfW1FnXdlI_XDdb-1" value="Смотри &quot;Процесс загрузки\сохранения настроек&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="60" width="270" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
